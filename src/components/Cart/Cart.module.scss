@@ -1,39 +1,54 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
-    tr {
-        border-bottom: 1px solid rgb(155, 155, 155);
+.cart {
+    margin: 50px 0;
+    font-size: 14px;
+    .cart__block {
+        padding: 20px;
+        background-color: rgb(241, 241, 241);
+        border-radius: 10px;
     }
 
-    thead {
-        text-align: left; 
-        tr, th {
-            padding: 5px 0;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        
+        border-radius: 10px;
+        
+        tr {
+            border-bottom: 1px solid rgb(155, 155, 155);
         }
-    }
-
-    tbody {
-        tr, th {
-            font-weight: bold;
-        }
-
-        td { 
-            padding: 5px 0;
-        }
-    }
-
-    tfoot {
-        tr, th {
-            padding: 5px 0;
-        }
-    }
-
-    tbody tr:nth-child(odd) {
-        background-color: #e4ffc6;
-    }
-      
     
+        thead {
+            text-align: left; 
+            tr, th {
+                padding: 10px 0;
+            }
+        }
+    
+        tbody {
+            tr, th {
+                font-weight: bold;
+            }
+    
+            td { 
+                padding: 10px 0;
+            }
+        }
+    
+        tfoot {
+            td { 
+                padding: 10px 0;
+            }
+        }
+    
+        tbody tr:nth-child(odd) {
+            background-color: #e4ffc6;
+        }
+          
+        
+    }
 }
+
+
 
 
 
