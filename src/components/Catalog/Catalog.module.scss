@@ -1,0 +1,9 @@
+.scroll__block {
+    height: 600px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: rgb(241, 241, 241);
+}
